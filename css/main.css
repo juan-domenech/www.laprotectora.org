@@ -1,0 +1,327 @@
+
+a:hover{
+	text-decoration: none;
+}
+a:visited{
+	color: #1c5f15;
+}
+
+.navbar{
+	font-size: 25px;
+	background-color:rgba(255, 255, 255, 0.9);
+}
+
+.navbar-toggle {
+	margin: 1px;
+}
+
+#text-logo {
+	font-family: "Bradley Hand", "Comic Sans MS", "Noteworthy";
+	color: #1c5f15;
+	font-size: 20px;
+}
+
+.flag{
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.blog-post{
+	color:white;
+	margin:10px;
+	overflow:hidden; /* rework! */
+	text-overflow: ellipsis; /* rework! */
+}
+
+h1{
+	font-size: 25px;
+}
+h2{
+	font-size: 18px;
+}
+h3{
+	font-size: 12px;
+}
+h4{
+	font-size: 12px; /*responsive*/
+}
+h5{
+	font-size: 10px;
+}
+
+#primary-post{
+	background-image: url(../images/adopta-la-protectora-animals-tarragona-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+
+#primary-text{
+	color:white;
+	background-color: #35b026;
+	margin-left: 15px;
+	margin-right: 160px;
+	padding: 15px;
+	padding-top: 0px;
+	position: absolute;
+	top:20px;
+}
+
+#secondary-post{
+	background-image: url(../images/mapa.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+
+}
+
+#secondary-text{
+	color:white;
+	background-color: #35b026;
+	margin-left: 150px; /* responsive */
+	margin-right: 10px;
+	margin-top: 10px;
+	padding: 10px;
+
+	position: relative;
+	top:30px;
+
+}
+
+
+#terciary-post{
+	background-image: url(../images/necessitem-ajuda-a-la-protectora.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+
+}
+
+#terciary-text{
+	color:white;
+	background-color: #35b026;
+	margin-left: 150px; /* responsive */
+	margin-right: 10px;
+	margin-top: 10px;
+	padding: 10px;
+
+	position: relative;
+	top:30px;
+
+}
+
+.standard-post {
+	color: #1c5f15;
+	background-color: white;
+	background-repeat: no-repeat;
+	height: 80px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+
+.standard-text-post {
+	color: #1c5f15;
+	margin-top: 0px;
+	margin-left: 170px; /* responsive */
+	margin-right: 30px;
+	padding: 0px;
+}
+
+#post-1{
+	background-image: url(../images/abandono-animales-madrid-2.jpg);
+	background-size: contain;
+	height: 80px;
+}
+
+#text-post-1{
+
+}
+
+#post-2{
+	background-image: url(../images/calendari.jpg);
+	background-size: 145px;
+}
+
+#text-post-2{
+}
+
+#post-3{
+	background-image: url(../images/facebook-logo-long.png);
+	background-size: 150px;
+}
+
+#text-post-3{
+}
+
+#post-4{
+	background-image: url(../images/samarretes.jpg);
+	background-size: 145px;
+}
+
+#text-post-4{
+}
+
+#post-5{
+	background-image: url(../images/la-protectora-qui-som.jpg);
+	background-size: 145px;
+}
+
+#text-post-5{
+}
+
+#post-6{
+	background-image: url(../images/paypal-logo-300x300.png);
+	background-size: 145px;
+}
+
+#text-post-5{
+}
+
+
+
+.blog-sidebar{
+	color: #1c5f15;
+	font-size: 18px;
+}
+
+.icon{
+	width: 10px;
+	margin-right: 10px;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+.facebook-post{
+ padding: 5px;
+}
+
+#footer {
+	background-color: #f5f5f5;
+}
+
+#footer-text {
+	color: #1c5f15;
+	padding: 20px;
+}
+
+
+.expanded-article {
+	color: #1c5f15;
+	font-size: 18px;
+
+}
+
+img.expanded-article {
+	padding: 20px;
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	h4{
+		font-size: 0px;
+	}
+	#links-collection{
+		display: none;
+	}
+	.facebook-post{
+		display: none;
+	}
+	.icon{
+		width: 50px;
+	}
+	.blog-sidebar a{
+		font-size: 25px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	h4{
+		font-size: 0px;
+	}
+	.icon{
+		width: 50px;
+	}
+	.blog-sidebar a{
+		font-size: 25px;
+	}
+	#links-collection{
+		display: none;
+	}
+	.facebook-post{
+		display: none;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	h4{
+		font-size: 14px;
+  }
+	#links-collection{
+		display: none;
+	}
+	.facebook-post{
+		display: block;
+	}
+	.icon{
+		width: 40px;
+	}
+	.blog-sidebar a{
+		font-size: 15px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	h4{
+		font-size: 14px;
+    }
+	#secondary-text{
+		margin-left: 400px;
+	}
+	#terciary-text{
+		margin-left: 400px;
+	}
+	#links-collection{
+		display: block;
+	}
+	.facebook-post{
+		display: block;
+	}
+	.icon{
+		width: 40px;
+	}
+	.blog-sidebar a{
+		font-size: 15px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	#secondary-text{
+		margin-left: 400px;
+	}
+	#terciary-text{
+		margin-left: 400px;
+	}
+	h4{
+  	font-size: 14px;
+  }
+  #links-collection{
+		display: block;
+	}
+	.facebook-post{
+		display: block;
+	}
+	.icon{
+		width: 40px;
+	}
+	.blog-sidebar a{
+		font-size: 15px;
+	}
+}
+
