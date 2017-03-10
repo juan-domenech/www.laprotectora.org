@@ -127,6 +127,7 @@ h5{
 	margin-left: 170px; /* responsive */
 	margin-right: 30px;
 	padding: 0px;
+	text-overflow: ellipsis;
 }
 
 #post-1{
@@ -136,7 +137,6 @@ h5{
 }
 
 #text-post-1{
-
 }
 
 #post-2{
@@ -156,7 +156,7 @@ h5{
 }
 
 #post-4{
-	background-image: url(../images/samarretes.jpg);
+	background-image: url(../images/entitats-amigues-la-protectora-tarragona.jpg);
 	background-size: 145px;
 }
 
@@ -176,8 +176,56 @@ h5{
 	background-size: 145px;
 }
 
-#text-post-5{
+#text-post-6{
 }
+
+#entitat-1{
+	background-image: url(http://faada.org/imas2/Logo_FAADA_accion.jpg);
+	background-size: 140px;
+}
+
+#entitat-2{
+	background-image: url(http://www.tierheim-tarragona.de/Tierheim_Tarragona/Willkommen_files/IMG_0135.jpg);
+	background-size: 150px;
+}
+
+#entitat-3{
+	background-image: url(http://www.bofarullveterinaris.com/img2/logo-bv-outer.png);
+	background-size: 185px;
+}
+
+#entitat-4{
+	background-image: url(http://wecandog.com/wp-content/uploads/2015/12/logo-ma%CC%81s-letras-.png);
+	background-size: 155px;
+}
+
+#entitat-5{
+	background-image: url(http://files.123inventatuweb.com/acens65977/image/logoblancotresky.jpeg);
+	background-size: 145px;
+}
+
+#entitat-6{
+	background-image: url(http://www.viajes4patas.com/images/logo_pie.png);
+	background-size: 155px;
+}
+
+#entitat-7{
+	background-image: url(http://identitatcorporativa.gencat.cat/web/.content/Documentacio/descarregues/identificacio/COLOR/idbh.gif);
+	background-size: 135px;
+}
+
+#entitat-8{
+	background-image: url(http://www.dipta.cat/sites/dipta/files/media/DIPTA_H_col.jpg);
+	background-size: 155px;
+}
+
+#entitat-9{
+	background-image: url(../images/tgn-logo.png);
+	background-size: 145px;
+}
+
+
+
 
 .blog-sidebar{
 	color: #1c5f15;
