@@ -1,4 +1,4 @@
 
 Humble website for http://www.laprotectora.org
 
-Please don't buy your pet, adopt.
+Don't buy your pet. Please adopt.
