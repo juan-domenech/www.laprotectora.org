@@ -27,6 +27,10 @@ a:visited{
 	margin: 0px;
 }
 
+#navbar-flag{
+	padding: 2px 10px 2px 10px;
+}
+
 .blog-post{
 	color:white;
 	margin:10px;
@@ -289,7 +293,7 @@ img.expanded-article {
 
 .paypal-button-navbar {
 	border: none;
-	background-color: white;
+	background-color: transparent;
 	text-align: right;
 }
 
