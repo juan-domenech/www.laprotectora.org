@@ -35,7 +35,6 @@
 
 <body id="index" class="col-sm-12 body">
 
-
 	<!-- Fixed navbar -->
 	<nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container">
@@ -63,7 +62,7 @@
 	      <ul class="nav navbar-nav">
 	        <li><a href="adopta.html">Adopta!</a></li>
 	        <li><a href="https://www.google.ie/maps/place/Protectora+de+Animales+de+Tarragona/@41.1339485,1.2096351,14z/data=!4m5!1m2!2m1!1sProtectora+de+Animales+de+Tarragona!3m1!1s0x0000000000000000:0x6f30bac6f9813d58">On som?</a></li>
-	        <li><a href="voluntaris.html">Voluntaris</a></li>
+	        <li><a href="">Voluntaris</a></li>
 					<li>
 						<a rel="external">
 						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="paypal">
@@ -142,28 +141,53 @@
 
     </div><!-- /.blog-main -->
 
+	  <!-- Modal (Popup for bank transfer donation -->
+	  <div class="modal fade" id="bank-transfer" role="dialog">
+	    <div class="modal-dialog modal-me">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Donatiu amb transferència bancària:</h4>
+	        </div>
+	        <div class="modal-body">
+	          <p>Pots fer un donatiu puntual a aquest número de compte:
+						<p class="bank-account-text">IBAN: ES36 0081 0104 7900 0155 4158</p>
+						<p class="bank-account-text">Swift Entitat: BSABESBB</p>
+						<p>Gràcies!</p>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-lg" data-dismiss="modal">Tancar</button>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
 
 		<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
 			<div id="contact-icons" class="sidebar-module sidebar-module-inset language-cat"><article>
 			    <h2>Dades de contacte:</h2>
 			    <ul class="list-unstyled">
-			      <li><a href="https://www.google.ie/maps/place/Protectora+de+Animales+de+Tarragona/@41.1339485,1.2096351,14z/data=!4m5!1m2!2m1!1sProtectora+de+Animales+de+Tarragona!3m1!1s0x0000000000000000:0x6f30bac6f9813d58" rel="external"><img class="icon" src="images/Google-Maps-icon.png">Mapa</a></li>
+			      <li><a href="https://www.google.ie/maps/place/Protectora+de+Animales+de+Tarragona/@41.1339485,1.2096351,14z/data=!4m5!1m2!2m1!1sProtectora+de+Animales+de+Tarragona!3m1!1s0x0000000000000000:0x6f30bac6f9813d58" rel="external"><img class="icon" src="images/Google-Maps-icon.png">On som?</a></li>
 			      <li><a href="https://www.facebook.com/protectoratarragona/" rel="external"><img class="icon" src="images/Facebook.png">Facebook</a></li>
 			      <li><a href="mailto:laprotectora@gmail.com" rel="external"><img class="icon" src="images/Gmail-icon.png">Correu Electronic</a></li>
 			      <li><a href="tel:653 073 713" rel="external"><img class="icon" src="images/phone.png">(+34) 653 073 713</a></li>
+			      <li><a href="https://www.teaming.net/teamingdelaprotectoradetarragona" rel="external"><img class="icon" src="images/logo_teaming_heart.png">Teaming.net</a></li>
+			      <li>
+						<button type="button" class="btn blog-sidebar" data-toggle="modal" data-target="#bank-transfer">
+							<img class="icon" src="images/piggy-bank-icon.png">Transferència bancària
+						</button>
+			      </li>
 						<li>
 						<a rel="external">
 						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="paypal">
 								<input type="hidden" name="cmd" value="_s-xclick">
 								<input type="hidden" name="hosted_button_id" value="Y9L68BC39DRQL">
-								<button type="submit" form="paypal" value="submit" class="paypal-button-lateral">
+								<button type="submit" form="paypal" value="submit" class="blog-sidebar">
 								<img src="images/Paypal.png" class="icon" border="0" alt="PayPal">
-								Donatiu amb PayPal
+								PayPal
 								</button>
 							</form>
 							</a>
 						</li>
-			      <li><a href="https://www.teaming.net/teamingdelaprotectoradetarragona" rel="external"><img class="icon" src="images/piggy-bank-icon.png">Teaming.net</a></li>
 			    </ul>
 			</article></div>
 			<div id="links-collection" class="sidebar-module sidebar-module-inset language-cat"><article>
@@ -222,6 +246,7 @@ Polígon Industrial Riu Clar
 Tarragona</pre>
 		<a href="documents/avislegalweb.pdf">Avís legal Protecció de Dades.</a>
 		<p>© Associació Protectora d'Animals i plantes de Tarragona 2011</p>
+		<p>Aquesta plana web es obra de voluntaris. Si la vols millorar si us plau segueix les instruccions a <a href="necessitem-ajuda.html">Necessitem Ayuda</a>. Gràcies!</p>
 	</div>
 </footer>
 
